@@ -1,0 +1,9 @@
+:root {
+    --fontFamily: 'PT Sans', arial, sans-serif;
+    --fontFamilySerif: 'Noto Serif', serif;
+    --primaryColor: #7F405F;
+    --primaryColorNegative: #fff;
+    --baseTextColor: #333;
+    --containerMaxWidth: 960px;
+    --layoutMargin: 30px;
+}

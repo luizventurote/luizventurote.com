@@ -1,0 +1,28 @@
+@import "./variables.module.css";
+
+.header {
+    margin: 0;
+    padding: var(--layoutMargin);
+    color: var(--baseTextColor);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: var(--containerMaxWidth);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+.link {
+    color: var(--baseTextColor);
+    text-decoration: none;
+}
+
+.h1 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
