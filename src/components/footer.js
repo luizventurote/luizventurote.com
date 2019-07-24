@@ -9,9 +9,9 @@ import footerStyles from './styles/footer.module.css';
 const Footer = ({ copyright, twitter, github, linkedin }) => (
     <footer className={footerStyles.footer}>
         <div className={footerStyles.social}>
-            <a href={`https://twitter.com/${twitter}`} rel="noopener"><IconTwitter /></a>
-            <a href={`https://github.com/${github}`} rel="noopener"><IconGithub /></a>
-            <a href={`https://www.linkedin.com/in/${linkedin}`} rel="noopener"><IconLinkedin /></a>
+            <a href={`https://twitter.com/${twitter}`} rel="noopener"><IconTwitter /><span>Twitter</span></a>
+            <a href={`https://github.com/${github}`} rel="noopener"><IconGithub /><span>Github</span></a>
+            <a href={`https://www.linkedin.com/in/${linkedin}`} rel="noopener"><IconLinkedin /><span>Linkedin</span></a>
         </div>
         <div className={footerStyles.copyright}>
             © {new Date().getFullYear()} {copyright}.

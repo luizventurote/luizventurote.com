@@ -18,3 +18,7 @@
 .social a {
     margin: 0 15px;
 }
+
+.social a span {
+    font-size: 0;
+}
