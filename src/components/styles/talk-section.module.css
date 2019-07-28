@@ -1,0 +1,42 @@
+@import "./variables.module.css";
+
+.content {
+    border-bottom: 1px dashed #CCC;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.content:last-child {
+    border-bottom: 0;
+}
+
+.time {
+    color: var(--primaryColor);
+    font-family: var(--fontFamilySerif);
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.title {
+    margin-bottom: 15px;
+}
+
+.title a {
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: var(--baseTextColor);
+    text-decoration: none;
+}
+
+.title a:active,
+.title a:focus,
+.title a:hover {
+    text-decoration: underline;
+}
+
+.description {
+    color: #888;
+    margin: 0;
+}

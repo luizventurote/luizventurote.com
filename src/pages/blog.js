@@ -9,7 +9,7 @@ export default ({data}) => {
   return (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
+    <h1>Blog</h1>
     {data.allMarkdownRemark.edges.map(({ node }) => (
       <div key={node.id}>
       <Link to={node.frontmatter.path}>{node.frontmatter.title}</Link>

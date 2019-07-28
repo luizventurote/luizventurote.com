@@ -1,0 +1,19 @@
+@import "./variables.module.css";
+
+.pageTitle {
+    text-align: center;
+    margin: 50px 0 40px;
+}
+
+.indexContent {
+    padding: 40px 0;
+}
+
+.indexContent p {
+    max-width: var(--containerMaxWidth);
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.6em;
+    margin-bottom: 24px;
+    font-weight: 100;
+}
