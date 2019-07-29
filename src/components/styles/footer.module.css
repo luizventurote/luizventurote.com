@@ -1,7 +1,7 @@
 @import "./variables.module.css";
 
 .footer {
-    background: var(--primaryColor);
+    background: var(--primaryGradient);
     color: var(--primaryColorNegative);
     padding: 50px var(--layoutMargin);
     text-align: center;

@@ -31,10 +31,7 @@ class Menu extends React.Component {
                 <button onClick={this.toggleMenu} className={stylesMenu.closeTrigger}><span>Close Menu</span></button>
                 <ul>
                     <li><Link to='/talks'>Talks</Link></li>
-                    <li><Link to='/blog'>Blog</Link></li>
-                    <li><Link to='/projects'>Projects</Link></li>
-                    <li><Link to='/certifications'>Certifications</Link></li>
-                    <li><Link to='/contact'>Contact</Link></li>
+                    <li><a href='mailto:luiz@imaginationmedia.com'>Contact</a></li>
                 </ul>
             </div>
             { (this.state.showMenu) ? <div onClick={this.toggleMenu} className={stylesMenu.overlay}></div> : null }

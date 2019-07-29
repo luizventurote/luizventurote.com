@@ -25,6 +25,7 @@ const Layout = ({ children }) => (
             twitter
             github
             linkedin
+            behance
           }
         }
       }
@@ -38,7 +39,8 @@ const Layout = ({ children }) => (
         <Footer copyright={data.site.siteMetadata.title} 
         twitter={data.site.siteMetadata.twitter} 
         github={data.site.siteMetadata.github} 
-        linkedin={data.site.siteMetadata.linkedin}/>
+        linkedin={data.site.siteMetadata.linkedin}
+        behance={data.site.siteMetadata.behance}/>
       </>
     )}
   />

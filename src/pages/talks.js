@@ -23,10 +23,10 @@ export default ({data}) => {
     <TalkSection talkTitle={'Progressive Web Apps and Magento 2'} talkLink={'https://speakerdeck.com/luizventurote/progressive-web-apps-and-magento-2'} 
     talkDate={'August 31, 2017'} talkLocation={'Magento SoFla Meetup | Boynton Beach, FL - USA.'}></TalkSection>
 
-    <TalkSection talkTitle={'Desenvolvimento de lojas virtuais com Magento'} talkLink={'http://luizventurote.com/talks/desenvolvimento-de-lojas-virtuais-com-magento/'} 
+    <TalkSection talkTitle={'Desenvolvimento de lojas virtuais com Magento'} talkLink={'https://speakerdeck.com/luizventurote/desenvolvimento-de-lojas-virtuais-com-magento-1'} 
     talkDate={'October 21, 2016'} talkLocation={'Foz do Iguaçu, PR - Brazil.'}></TalkSection>
 
-    <TalkSection talkTitle={'Controle de Versão com Git'} talkLink={'http://luizventurote.com/talks/minicurso-git/'} 
+    <TalkSection talkTitle={'Controle de Versão com Git'} talkLink={'https://www.youtube.com/watch?v=Or7ccG2qa7Y&list=PLBzQU3U8iMRndBoeUhURmQf1aLhQExbP8'} 
     talkDate={'July 5, 2014'} talkLocation={'Ifes - Campus Colatina. Colatina, ES - Brazil.'}></TalkSection>
     
     <TalkSection talkTitle={'Responsive Web Design'} talkLink={'https://speakerdeck.com/luizventurote/responsive-web-design'} 

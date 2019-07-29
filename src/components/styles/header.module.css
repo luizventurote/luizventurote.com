@@ -2,9 +2,9 @@
 
 .header {
     margin: 0;
-    padding: var(--layoutMargin);
+    padding: 25px var(--layoutMargin);
     color: var(--baseTextColor);
-    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.05);
 }
 
 .container {

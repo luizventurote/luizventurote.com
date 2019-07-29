@@ -6,14 +6,26 @@
 }
 
 .indexContent {
-    padding: 40px 0;
+    padding: 10px 0 0;
 }
 
 .indexContent p {
-    max-width: var(--containerMaxWidth);
+    max-width: 500px;
     margin: auto;
     font-size: 20px;
     line-height: 1.6em;
     margin-bottom: 24px;
     font-weight: 100;
+}
+
+@media all and (min-width:860px) {
+
+    .indexContent {
+        padding: 40px 0 50px;
+    }
+
+    .indexContent p {
+        max-width: var(--containerMaxWidth);
+        margin-top: 20px;
+    }
 }

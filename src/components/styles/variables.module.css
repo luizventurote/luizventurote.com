@@ -1,7 +1,8 @@
 :root {
     --fontFamily: 'PT Sans', arial, sans-serif;
     --fontFamilySerif: 'Noto Serif', serif;
-    --primaryColor: #7F405F;
+    --primaryColor: #44A7BA;
+    --primaryGradient: linear-gradient(to right, #3f94d4 0%,#49bd9c 100%);
     --primaryColorNegative: #fff;
     --baseTextColor: #333;
     --containerMaxWidth: 800px;

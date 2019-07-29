@@ -10,12 +10,13 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className={Styles.indexContent}>
-      <div style={{ maxWidth: `300px`, margin: `0 auto 30px`, }}>
+      <div style={{ maxWidth: `300px`, margin: `auto`, }}>
         <Image />
       </div>
-      <p>Hi my name is Luiz Venturote. I'm a Magento front-end developer at <a href='https://www.imaginationmedia.com/' rel="noopener">Imagination Media</a>.</p>
-      <p>I love internet and web development. I have worked with Wordpress and design for several years, creating layouts and applications. But now I am keeping the focus of my work in e-commerce development with Magento, creating themes and extensions and I got my first front-end certification in early 2016.</p>
-      <p>I enjoy music, learning foreign languages and Bible. If you want to know more about me or on those issues, please contact me!</p>
+      <p>Hi, I'm Luiz Venturote.</p>
+      <p>I'm a UI/UX designer and front-end developer at <a href='https://www.imaginationmedia.com/' rel="noopener">Imagination Media</a>, a Magento Partner agency based in Florida. I'm responsible for e-commerce development using Magento, Sales Force Commerce Cloud and other cool platforms with a recent focus on modern Javascript.</p>
+      <p>I live in a little town in Brazil where I organize a <a href='https://meetup.com/dev-colatina/' rel="noopener">meetup about software development</a>. I have three <a href='https://u.magento.com/certification/directory/dev/2261168/' rel="noopener">Magento certifications</a> and graduated with a degree in Information Systems at <a href='http://ifes.edu.br/' rel="noopener">Ifes</a>.</p>
+      <p>I enjoy music, learning foreign languages and Bible.</p>
     </div>
   </Layout>
 )
