@@ -1,10 +1,11 @@
 .trigger {
-    width: 30px;
+    width: 25px;
     cursor: pointer;
     display: flex;
     flex-wrap: wrap;
     border: 0;
     background: transparent;
+    padding: 0;
 }
 
 .trigger:focus,
@@ -15,7 +16,7 @@
 
 .trigger span {
     width: 100%;
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     justify-content: flex-end;
     padding: 0;
@@ -37,6 +38,7 @@
     height: 2px;
     background: #000;
     display: block;
+    float: right;
 }
 
 .container {
@@ -97,7 +99,7 @@
     border: 0;
     background: transparent;
     position: absolute;
-    right: 30px;
+    right: 20px;
     top: 30px;
 }
 
@@ -118,7 +120,7 @@
 
 .closeTrigger span:before {
     content: '';
-    width: 100%;
+    width: 20px;
     height: 1px;
     background: #000;
     display: block;
@@ -130,7 +132,7 @@
 
 .closeTrigger span:after {
     content: '';
-    width: 100%;
+    width: 20px;
     height: 1px;
     background: #000;
     display: block;
