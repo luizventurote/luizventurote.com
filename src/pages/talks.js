@@ -14,6 +14,9 @@ export default ({data}) => {
 
     <h1 className={Styles.pageTitle}>Talks</h1>
 
+    <TalkSection talkTitle={'Navegação Offline com Progressive Web App (PWA)'} talkLink={'https://youtu.be/OA3dDlQYruE'} 
+    talkDate={'October 18, 2019'} talkLocation={'Dev Colatina meetup | Ifes - Campus Colatina. Colatina, ES - Brazil.'}></TalkSection>
+
     <TalkSection talkTitle={'Estratégias de conteúdo para e-commerce com Magento Page Builder'} talkLink={'https://speakerdeck.com/luizventurote/estrategias-de-conteudo-para-e-commerce-com-magento-page-builder'} 
     talkDate={'September 18, 2018'} talkLocation={'Meet Magento Brazil 2018 | São Paulo, SP - Brazil.'}></TalkSection>
 
