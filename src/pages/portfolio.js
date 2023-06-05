@@ -8,7 +8,7 @@ export default ({data}) => {
         const timeout = setTimeout(() => {
         // 👇️ redirects to an external URL
         window.location.replace('https://venturote.notion.site/Luiz-Venturote-5329276ac505419e80b60b385749d9ab?pvs=4');
-        }, 3000);
+        }, 500);
 
         return () => clearTimeout(timeout);
     }, []);
